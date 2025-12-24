@@ -1,11 +1,50 @@
-<div align="center">
+# 汉字笔顺大师 (Hanzi Master)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+一个专业的汉字笔顺练习帖生成工具。利用 AI (Gemini API) 自动获取拼音和释义，并结合标准笔顺数据库生成可直接打印或导出为 PDF 的练习页面。
 
-  <h1>Built with AI Studio</h2>
+## 📸 界面预览 (Preview)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+![App Screenshot](./screenshot.svg)
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## ✨ 核心功能
 
-</div>
+- **智能笔顺分解**：自动生成汉字的每一笔书写步骤，标注当前笔划（红色）。
+- **AI 赋能**：集成 Google Gemini API，自动为输入的汉字提供准确的拼音和英文释义。
+- **书法级字体支持**：支持楷体、马山正（手写体）、宋体、小薇体等多种风格。
+- **高度可定制**：
+  - 支持 **田字格**、**米字格** 及其颜色自定义。
+  - 可调节字体大小及空练习格数量。
+  - 支持“字体参考模式”：可在首格显示精美的书法字体。
+- **打印优化**：采用响应式设计，练习帖区域严格适配 A4 比例。
+
+## 🚀 如何使用
+
+1. **输入文本**：在左侧边栏的“输入文本”框中输入你想要练习的汉字（可以是单个字、词语或句子，系统会自动过滤非汉字字符）。
+2. **生成预览**：点击 **"Generate Sheet"** 按钮。AI 将通过 Gemini 接口分析汉字并加载对应的笔顺动画数据。
+3. **个性化配置**：
+   - **Font Style**: 选择整体视觉风格（如马山正手写体）。
+   - **Use Custom Font for Reference**: 勾选此项，首个黑色参考字将应用您选择的艺术字体，而非标准楷体路径。
+   - **Grid Type**: 根据需求切换田字格、米字格或空白格。
+   - **Extra Grids**: 调整后面空白练习格的数量。
+4. **调整标题**：直接点击预览页顶部的标题文字进行修改。
+
+## 📄 如何导出为 PDF
+
+本工具通过浏览器的原生打印引擎实现 PDF 导出，能够保证最高的清晰度和矢量效果。
+
+1. 点击左侧边栏底部的 **"PRINT WORKBOOK"** 按钮。
+2. 在弹出的打印对话框中，寻找 **“目标打印机”** 或 **“目标”** 选项。
+3. 在下拉菜单中选择 **“另存为 PDF” (Save as PDF)**。
+4. **【关键步骤】** 点击“更多设置” (More Settings)，确保勾选 **“背景图形” (Background graphics)**。
+   - *如果不勾选此项，田字格/米字格的红色线条将不会显示在 PDF 中。*
+5. 点击 **“保存”**，选择文件存放位置即可。
+
+## 💡 打印建议
+
+- **纸张大小**：建议选择 A4。
+- **页边距**：建议选择“无”或“默认”，以获得最佳的页面布局效果。
+- **色彩**：建议选择“彩色”，以保留笔画分解中的红色引导线。
+
+---
+
+*Powered by Google Gemini API & Hanzi Writer Data.*

@@ -1,0 +1,14 @@
+{
+  "name": "汉字笔顺大师 (Hanzi Master)",
+  "description": "A professional-grade Chinese character practice sheet generator featuring AI-powered pinyin/meaning retrieval, stroke-by-stroke decomposition, and customizable calligraphy font support. Optimized for A4 printing.",
+  "version": "2.1.0",
+  "author": "AI Studio Assistant",
+  "tags": [
+    "Chinese Learning",
+    "Education",
+    "Gemini API",
+    "Stroke Order",
+    "Printable"
+  ],
+  "requestFramePermissions": []
+}
