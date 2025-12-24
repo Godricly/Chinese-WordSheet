@@ -3,8 +3,9 @@
 一个专业的汉字笔顺练习帖生成工具。利用 AI (Gemini API) 自动获取拼音和释义，并结合标准笔顺数据库生成可直接打印或导出为 PDF 的练习页面。
 
 ## 📸 界面预览 (Preview)
+<img width="776" height="767" alt="image" src="https://github.com/user-attachments/assets/ce702565-d367-416c-b35b-f10ed49f5abb" />
 
-![App Screenshot](./screenshot.svg)
+
 
 ## ✨ 核心功能
 
